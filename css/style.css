@@ -8,28 +8,13 @@ div {
 }
 /*DELETE THE SECTION ABOVE*/
 
-nav {
-	background-color: #FFF;
-	padding: 1.2em;
+.top-navigation {
+	background-color: #fff;
 }
 
-ul li {
-	/* For Nav List */
-	list-style-type: none;
-	display: inline;
-
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
 }
 
-a:hover:not(.active) {
-	color: #4C5058;	
-}
-
-a {
-	text-decoration: none;
-	padding-right: 2em;
-	color: #838994;
-}
-
-.active {
-	font-weight: bold;
-}
