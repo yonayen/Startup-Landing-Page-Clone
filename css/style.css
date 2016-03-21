@@ -8,3 +8,28 @@ div {
 }
 /*DELETE THE SECTION ABOVE*/
 
+nav {
+	background-color: #FFF;
+	padding: 1.2em;
+}
+
+ul li {
+	/* For Nav List */
+	list-style-type: none;
+	display: inline;
+
+}
+
+a:hover:not(.active) {
+	color: #4C5058;	
+}
+
+a {
+	text-decoration: none;
+	padding-right: 2em;
+	color: #838994;
+}
+
+.active {
+	font-weight: bold;
+}
