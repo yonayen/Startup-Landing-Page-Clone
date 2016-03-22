@@ -119,11 +119,40 @@ html {
 
 /* Styling for Cases */
 
+.cases > .content {
+	width: 970px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	color: #1d1e21;
+	text-align: center;
+
+}
+
+.cases {
+	background-color: #fff;
+	padding-bottom: 5rem;
+	font-family: 'Roberto', sans-serif;
+}
+
+.cases h2 {
+	text-align: center;
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+
+}
 .cases .devices {
 	width: 33.33333%;
 	display: inline-block;
-	/*debugging styles*/
-	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;
+	/* fix spacing issue with spaces b/w inline blocks*/
+	margin-right: -4px;
+	padding: 0 auto;
 }
+
+.cases .devices .caption {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0 1.875rem;
+}
+
+
