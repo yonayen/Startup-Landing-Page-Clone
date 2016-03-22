@@ -26,8 +26,8 @@ html {
 
 .top-navigation > .content {
 	width: 970px;
-	height: 70px;
 	margin: 0 auto;
+	height: 70px;
 	padding: 0 15px;
 	box-sizing: border-box;
 }
@@ -38,7 +38,7 @@ html {
 	color: #838994;
 	font-size: 16px;
 	margin-top: 25px;
-		letter-spacing: 0.03em;
+	letter-spacing: 0.03em;
 	-webkit-font-smooting: antialiased;
 }
 
@@ -67,22 +67,22 @@ html {
 .introduction {
 	background-image: url('../images/first-background.jpg');
 	background-repeat: no-repeat;
-	height: 735px;
+	background-position: center bottom;
+	height: 45.938rem;
+	background-size: cover;
 }
 
 .introduction > .content {
 	width: 970px;
-	height: 70px;
 	margin: 0 auto;
-	padding: 0 15px;
 	box-sizing: border-box;
 }
 
-.introduction h1, .introduction h3 {
+.introduction h1, h3 {
 	color: white;
 	text-align: center;
 	font-weight: 300;
-	
+	font-family: 'Roberto', sans-serif;
 }
 
 .introduction h1 {
@@ -96,13 +96,20 @@ html {
 }
 
 .introduction button {
-	background-color: #f15a29;
-	border-color: #f15a29;
+	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
-	margin-top: 25px;
-	width: 9.688rem;
-	padding: 16px 24px;
+	padding: 1rem 1.5rem;
+	display: inline-block;
+	margin: 0 auto;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	margin-top: 1.5rem;
 	color: white;
 	font-size: 1.125rem;
+}
+
+/* why did text align center work for .buttons but not .button? */
+.introduction .buttons {
+	text-align: center;
 }
