@@ -6,7 +6,17 @@ body {
 div {
 	border: 1px solid Chocolate;
 }
-/*DELETE THE SECTION ABOVE*/
+/* ----- DELETE THE SECTION ABOVE ------ */
+
+html {
+	box-sizing: border-box;
+}
+
+/*what does the next line mean*/
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 
 .top-navigation {
 	background-color: #fff;
@@ -16,15 +26,37 @@ div {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.top-navigation .links {
+	float:right;
+	font-family: 'Roberto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top: 25px;
+		letter-spacing: 0.03em;
+	-webkit-font-smooting: antialiased;
+}
+
+.top-navigation .links li {
+	display: inline-block; 
+	margin-left: 25px;
+	/*font-size: 1.2em;*/
+}
+
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+	color: #333333;
+	cursor: pointer;	
 }
 
 .logo {
-	margin-left: 14px;
 	height: 70px;
-}
-
-.content > .links {
-	float: right;
-
 }
 
