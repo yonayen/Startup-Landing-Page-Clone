@@ -22,6 +22,9 @@ html {
 
 .top-navigation {
 	background-color: #fff;
+	position:fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -112,4 +115,15 @@ html {
 /* why did text align center work for .buttons but not .button? */
 .introduction .buttons {
 	text-align: center;
+}
+
+/* Styling for Cases */
+
+.cases .devices {
+	width: 33.33333%;
+	display: inline-block;
+	/*debugging styles*/
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
