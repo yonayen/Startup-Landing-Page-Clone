@@ -1,7 +1,7 @@
 /*DELETE THIS SECTION -- ONLY FOR STYLING PURPOSES*/
-body {
+/*body {
 	background-color: LightGray;
-}
+}*/
 
 div {
 	border: 1px solid Chocolate;
@@ -25,12 +25,13 @@ html {
 	position:fixed;
 	width: 100%;
 	z-index: 9999;
+	border-bottom: 1px solid #DDD;
 }
 
 .top-navigation > .content {
 	width: 970px;
 	margin: 0 auto;
-	height: 70px;
+	height: 4.375rem;
 	padding: 0 15px;
 	box-sizing: border-box;
 }
@@ -39,15 +40,15 @@ html {
 	float:right;
 	font-family: 'Roboto', sans-serif;
 	color: #838994;
-	font-size: 16px;
-	margin-top: 25px;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
 	letter-spacing: 0.03em;
 	-webkit-font-smooting: antialiased;
 }
 
 .top-navigation .links li {
 	display: inline-block; 
-	margin-left: 25px;
+	margin-left: 1.563rem;
 	/*font-size: 1.2em;*/
 }
 
@@ -73,6 +74,7 @@ html {
 	background-position: center bottom;
 	height: 45.938rem;
 	background-size: cover;
+	overflow: auto;
 }
 
 .introduction > .content {
@@ -121,7 +123,7 @@ html {
 
 .cases > .content {
 	width: 970px;
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 	box-sizing: border-box;
 	color: #1d1e21;
 	text-align: center;
@@ -130,6 +132,7 @@ html {
 
 .cases {
 	background-color: #fff;
+	overflow: hidden;
 	padding-bottom: 5rem;
 	font-family: 'Roboto', sans-serif;
 }
