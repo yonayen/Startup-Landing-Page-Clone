@@ -3,9 +3,9 @@
 	background-color: LightGray;
 }*/
 
-div {
+/*div {
 	border: 1px solid Chocolate;
-}
+}*/
 /* ----- DELETE THE SECTION ABOVE ------ */
 
 html {
@@ -16,6 +16,7 @@ html {
 
 *, *:before, *:after {
 	box-sizing: inherit;
+	box-sizing: border-box;
 }
 
 /* Navbar Section */
@@ -172,6 +173,7 @@ html {
 	padding: 0 0.938rem;
 	box-sizing: border-box;
 	color: #1d1e21;
+	width: 60%;
 }
 
 .social hr {
