@@ -37,7 +37,7 @@ html {
 
 .top-navigation .links {
 	float:right;
-	font-family: 'Roberto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #838994;
 	font-size: 16px;
 	margin-top: 25px;
@@ -85,7 +85,7 @@ html {
 	color: white;
 	text-align: center;
 	font-weight: 300;
-	font-family: 'Roberto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .introduction h1 {
@@ -113,7 +113,7 @@ html {
 }
 
 /* why did text align center work for .buttons but not .button? */
-.introduction .buttons {
+.buttons {
 	text-align: center;
 }
 
@@ -121,17 +121,17 @@ html {
 
 .cases > .content {
 	width: 970px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	box-sizing: border-box;
 	color: #1d1e21;
 	text-align: center;
-
+	margin: 126px auto;
 }
 
 .cases {
 	background-color: #fff;
 	padding-bottom: 5rem;
-	font-family: 'Roberto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .cases h2 {
@@ -144,8 +144,6 @@ html {
 .cases .devices {
 	width: 33.33333%;
 	display: inline-block;
-	/* fix spacing issue with spaces b/w inline blocks*/
-	margin-right: -4px;
 	padding: 0 auto;
 }
 
@@ -154,5 +152,27 @@ html {
 	font-size: 1.563rem;
 	margin: 2.5rem 0 1.875rem;
 }
+
+/* Footer Styling */
+
+.footer {
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer > .content {
+	width: 970px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	color: #1d1e21;
+	text-align: center;
+}
+
+.footer ul {
+	display: inline;
+}
+
+
+
 
 
